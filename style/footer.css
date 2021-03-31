@@ -1,0 +1,14 @@
+
+
+footer {
+    background: #000;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    background: -webkit-linear-gradient(left, #b82c2c, #34750e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

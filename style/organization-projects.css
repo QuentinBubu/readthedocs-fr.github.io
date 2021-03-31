@@ -1,0 +1,35 @@
+#organization img,
+#projects img {
+    margin: 0 auto;
+    height: 100px;
+}
+
+#organization > div > article,
+#projects > div > article {
+    margin: 2rem 0;
+    display: flex;
+}
+
+#organization > div > article > a,
+#projects > div > article > a {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    #organization img,
+    #projects img {
+        height: 175px;
+    }
+
+    #organization > div,
+    #projects > div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #organization > div > article,
+    #projects > div > article {
+        flex: 50%;
+        padding: 1rem 2rem;
+    }
+}

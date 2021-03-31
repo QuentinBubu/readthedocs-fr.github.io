@@ -1,0 +1,25 @@
+#projects > div > article {
+    margin: 2rem 0;
+    display: flex;
+}
+
+#projects img {
+    margin: 0 auto;
+    height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+    #projects > div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #projects > div > article {
+        flex: 50%;
+        padding: 1rem 2rem;
+    }
+
+    #projects img {
+        height: 175px;
+    }
+}

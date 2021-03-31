@@ -1,0 +1,17 @@
+{
+    "2": {
+        "name": "Quizz party!",
+        "date": "03/03/2021 20h00",
+        "description": "Mini-live à 20h pour animer une partie de quizz sur les streams."
+    },
+    "1": {
+        "name": "Serveur IRC",
+        "date": "10/09/2020 20h00",
+        "description": "Réalisation d'un serveur IRC"
+    },
+    "0": {
+        "name": "Réseau",
+        "date": "11/08/2020 22h00",
+        "description": "Les bases du réseau."
+    }
+}

@@ -1,0 +1,55 @@
+#join > div > article {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#join a {
+    transition: all 600ms;
+}
+
+#join svg {
+    height: 150px;
+}
+
+#join p {
+    text-align: center;
+}
+
+#github:hover {
+    color: gray;
+    fill: gray;
+}
+
+#discord:hover {
+    color: #8ea1e1;
+    fill: #8ea1e1;
+}
+
+#youtube:hover {
+    color: #f00;
+    fill: #f00;
+}
+
+#twitch:hover {
+    color: #af7afe;
+    fill: #af7afe;
+}
+
+@media screen and (min-width: 768px) {
+    #join > div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #join > div > article {
+        flex: 50%;
+        padding: 1rem 2rem;
+    }
+
+    #join img {
+        height: 175px;
+    }
+}
