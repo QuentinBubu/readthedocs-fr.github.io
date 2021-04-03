@@ -1,7 +1,7 @@
 :root {
     font-size: 18px;
-    letter-spacing: .1rem;
-    word-spacing: .3rem;
+    letter-spacing: 2px;
+    word-spacing: .2rem;
     font-family: 'Candara';
     scroll-behavior: smooth;
 }
@@ -47,6 +47,7 @@ main article > div {
 }
 
 main h1 {
+    padding: 10px;
     display: inline-block;
     border-style: none none outset outset;
     border-color: #32b446;
@@ -73,7 +74,7 @@ main h1 {
 }
 
 .button > a {
-    padding: 1rem;
+    padding: 1.2rem;
     border-radius: 75px;
     font-weight: 600;
     background-color: #068621;
